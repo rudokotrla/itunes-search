@@ -1,0 +1,35 @@
+ul.navbar-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+ 
+ul.navbar-menu li {
+    text-align: center;
+    flex-grow: 1;
+}
+
+ul.navbar-menu li a {
+    display: block;
+    font-size: 2em;
+}
+
+ul.navbar-menu li:hover {
+    background-color: rgb(116, 36, 116);
+    
+}
+
+ul.navbar-menu li:hover a {
+    color: rgb(238, 238, 238);
+}
+
+
+.navbar-menu a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(116, 36, 116);
+}
+

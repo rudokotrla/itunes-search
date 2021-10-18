@@ -1,0 +1,31 @@
+.search-result {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button.song-play-stop {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.song-info {
+    margin: 0 10px;
+    width: 400px;
+}
+
+.song-info p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+button.song-play-stop:hover {
+    cursor: pointer;
+}
+.search-result img {
+    display: block;
+}
